@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.table {
+    background-color: rgb(235, 210, 174);
+    padding: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__Cell {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.table__Caption {
+    caption-side: top;
+    background-color: rgb(235, 181, 137);
+    font-weight: bolder;
+    font-size: large;
+    padding: 5px;
+    text-shadow: 0px 1px 18px rgb(53, 33, 3);
+    font-family: 'Raleway', sans-serif;
+}
+
+.table__Header {
+    background-color: rgb(235, 181, 137);
+    font-weight: bold;
+}
+
+.table__Row:nth-child(even) {
+    background-color: rgb(235, 215, 197);
+}
+
+.table__Row:hover {
+    background-color: rgb(219, 211, 136);
+}
+
+.table__Row {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    Overflow-x: auto;
+    margin-bottom: 10px;
+}
+
+.table__Link:hover {
+    background-color: rgba(228, 175, 0, 0.651)
+}

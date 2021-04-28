@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.nav {
+    display: block;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.nav__Item--link:focus {
+    Outline: 2px solid currentColor;
+}
+
+.nav__Item--link:hover {
+    background-color: rgba(207, 207, 207, 0.493)
+}
+
+.nav__Item--link {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav__Item {
+    display: inline-block;
+    border: solid 2px rgb(99, 68, 21);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: rgb(148, 120, 108);
+    color: white;
+}

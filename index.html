@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Michał J.</title>
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/table.css" rel="stylesheet">
+    <link href="CSS/section.css" rel="stylesheet">
+    <link href="CSS/nav.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <script defer src="JS/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&family=Raleway:wght@300;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="pageHeader">Mój profil osobowy</h1>
+    </header>
+    <nav>
+        <ul class="nav">
+            <li class="nav__Item"><a class="nav__Item--link" href="#interestsSection">ZAINTERESOWANIA</a></li>
+            <li class="nav__Item"><a class="nav__Item--link" href="#workSection">DOŚWIADCZENIE</a></li>
+            <li class="nav__Item"><a class="nav__Item--link" href="#favSection">ULUBIONE</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <p>
+            <img class="main__imageMJ" src="Images/P1110185.JPG" alt="Michal z gitara">
+        </p>
+        <div class="center">
+            <p>
+                <button class="js-buttonInfo main__Button">Ukryj dane zawodowe</button>
+                <button class="js-buttonPerform main__Button">Pokaż link do występu</button>
+            </p>
+
+            <p><a rel="noreferrer noopener" target="_blank" class="js-main__Link--Hide main__Link"
+                    title="Występ Michała w All Together Now" href="https://www.youtube.com/watch?v=i9iJyEBUizk">Michał
+                    - występ w All Together Now</a></p>
+        </div>
+
+        <section id="interestsSection">
+            <div class="section__backgroundH2">
+                <h2 class="section__Header2">ZAINTERESOWANIA</h2>
+                <h3 class="section__Header3"><strong>MUZYKA
+                    </strong></h3>
+                <p class="section__Text">Ogólnie pojęte <b>śpiewanie</b>, pisanie tekstów i piosenek, instrumenty typu
+                    <b>pianino</b> i <b>gitara</b> jedynie amatorsko.
+                </p>
+                <h3 class="section__Header3"><strong>SPORT</strong></h3>
+                <p class="section__Text">Od ok.3 lat <b>boks</b> amatorsko, kiedyś <b>koszykówka</b>, a w podstawówce
+                    próbowałem
+                    <b>piłki nożnej.</b>
+                </p>
+                <h3 class="section__Header3"><strong>PROGRAMOWANIE</strong></h3>
+                <p class="section__Text">Dopiero zaczynam, więc tutaj fajerwerków nie będzie... przynajmniej póki
+                    co...</p>
+            </div>
+        </section>
+
+        <section id="workSection">
+            <div class="section__backgroundH2 workInfo">
+                <h2 class="section__Header2">DOŚWIADCZENIE ZAWODOWE</h2>
+                <h3 class="section__Header3"><strong>PRACA OBECNA</strong></h3>
+                <p class="section__Text"><strong>Key Account Manager</strong> - prowadzenie określonego portfela partnerów
+                    od
+                    strony
+                    biznesowo-operacyjnej, pozyskiwanie nowych partnerów i marek, wsparcie w pozyskiwaniu produktów pod
+                    akcje
+                    marketingowe.</p>
+                <h3 class="section__Header3"><strong>PRACA POPRZEDNIA</strong></h3>
+                <p class="section__Text"><strong>Senior Order Desk Specialist</strong> - koordynowanie wysyłek z fabryk w
+                    <span class="section__Text__Important">Szkocji, Słowacji i Niemiec</span> oraz nadzorowanie mocy produkcyjnych
+                    w
+                    polskiej
+                    fabryce
+                </p>
+                <h3 class="section__Header3"><strong>PRACA PRZEDOSTATNIA</strong></h3>
+                <p class="section__Text"><strong>Account Operations Specialist</strong> - opieka nad multibrandowymi
+                    sklepami
+                    danej marki od strony operacyjno-logistycznej</p>
+            </div>
+        </section>
+
+        <section id="favSection">
+            <div class="container">
+                <table class="table">
+                    <caption class="table__Caption">Moje muzyczne TOP4</caption>
+                    <tr class="table__Row">
+                        <th class="table__Cell table__Header" scope="col">Artysta</th>
+                        <th class="table__Cell table__Header" scope="col">Album</th>
+                        <th class="table__Cell table__Header" scope="col">Piosenka</th>
+                        <th class="table__Cell table__Header" scope="col">Klip</th>
+                    </tr>
+                    <tr class="table__Row">
+                        <th class="table__Cell table__Header" scope="row">Michael Jackson</th>
+                        <td class="table__Cell">Dangerous</td>
+                        <td class="table__Cell">Will You Be There</td>
+                        <td class="table__Cell">They Don't Care About Us <a rel="noreferrer noopener" target="_blank"
+                                class="table__Link" title="klip Michaela Jacksona"
+                                href="https://www.youtube.com/watch?v=QNJL6nfu__Q">[link]</a></td>
+                    </tr>
+                    <tr class="table__Row">
+                        <th class="table__Cell table__Header" scope="row">Queen</th>
+                        <td class="table__Cell">A Kind Of Magic</td>
+                        <td class="table__Cell">Who Wants To Live Forever</td>
+                        <td class="table__Cell">One Vision <a rel="noreferrer noopener" target="_blank" class="table__Link"
+                                title="klik Queen" href="https://www.youtube.com/watch?v=-OGd4gplxQM">[link]</a></td>
+                    </tr>
+                    <tr class="table__Row">
+                        <th class="table__Cell table__Header" scope="row">Bryan Adams</th>
+                        <td class="table__Cell">18 Till I Die</td>
+                        <td class="table__Cell">Do I Have To Say The Words</td>
+                        <td class="table__Cell">The Only Think That Looks Good On Me Is You <a rel="noreferrer noopener"
+                                target="_blank" class="table__Link" title="klip Bryana Adamsa"
+                                href="https://www.youtube.com/watch?v=onn8x-qDrtg">[link]</a></td>
+                    </tr>
+                    <tr class="table__Row">
+                        <th class="table__Cell table__Header" scope="row">Dire Straits</th>
+                        <td class="table__Cell">Brothers In Arms</td>
+                        <td class="table__Cell">Money For Nothing</td>
+                        <td class="table__Cell">Brothers In Arms<a rel="noreferrer noopener" target="_blank"
+                                class="table__Link" title="klip Dire Straits"
+                                href="https://www.youtube.com/watch?v=jhdFe3evXpk">[link]</a></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer center">
+        Michał Jabłoński kontakt <a href="mailto:mikej44@vp.pl">mikej44@vp.pl</a>
+    </footer>
+
+</body>
+
+</html>
